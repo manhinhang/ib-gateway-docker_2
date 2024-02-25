@@ -10,7 +10,7 @@ FROM ubuntu:22.04 as setup
 
 ENV IB_GATEWAY_VERSION=10.27.1f
 ENV IB_GATEWAY_RELEASE_CHANNEL=latest
-ENV IBC_VERSION=3.18
+ENV IBC_VERSION=3.18.0
 
 # Prepare system
 RUN apt-get update -y
